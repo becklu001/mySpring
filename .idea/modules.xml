@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework.iml" filepath="$PROJECT_DIR$/.idea/modules/framework.iml" group="framework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/framework_main.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/framework_main.iml" group="framework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/framework/framework_test.iml" filepath="$PROJECT_DIR$/.idea/modules/framework/framework_test.iml" group="framework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myspring.iml" filepath="$PROJECT_DIR$/.idea/modules/myspring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myspring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/myspring_main.iml" group="myspring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myspring_test.iml" filepath="$PROJECT_DIR$/.idea/modules/myspring_test.iml" group="myspring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newFrame/newFrame.iml" filepath="$PROJECT_DIR$/.idea/modules/newFrame/newFrame.iml" group="newFrame" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newFrame/newFrame_main.iml" filepath="$PROJECT_DIR$/.idea/modules/newFrame/newFrame_main.iml" group="newFrame" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newFrame/newFrame_test.iml" filepath="$PROJECT_DIR$/.idea/modules/newFrame/newFrame_test.iml" group="newFrame" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test.iml" filepath="$PROJECT_DIR$/.idea/modules/test.iml" group="test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test_main.iml" group="test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test_test.iml" group="test" />
+    </modules>
+  </component>
+</project>

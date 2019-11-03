@@ -1,0 +1,33 @@
+group 'com.becklu'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    //3-- 引用兄弟模块
+    compile(project(':framework'))
+}
+
+//1--- 所有jar包相关的操作必须定义在 jar配置项下，配置 manifest属性
+jar{
+    manifest{
+        attributes "Main-class":"com.becklu.Application"
+    }
+    // 2-- 还要把依赖的其它jar包 递归导入？不明白啥意思
+    from{
+        configurations.compile.collect{
+            it.isDirectory()? it:zipTree(it)
+        }
+    }
+}
